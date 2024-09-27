@@ -1,0 +1,92 @@
+/*-- © 2024 Gabriela Vieira. Todos os direitos reservados. */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gayathri';
+  background-image: url(/img/computador.png);
+  background-color: #d9d9d9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  text-align: center;
+  padding: 2%
+}
+
+.profile-pic img {
+  margin-top: -10px;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 40px;
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+
+h2 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #000000d7;
+  margin: -20px 0;
+}
+
+.subtitle {
+  font-family: 'Century Gothic', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  color: #000000c2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 25px 0;
+}
+
+.subtitle .divider {
+  margin: 0 15px;
+  color: #00FF00;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.button {
+  font-family: 'Century Gothic', sans-serif;
+  display: block;
+  background-color: #212226;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px; 
+  margin: 10px auto;
+  width: 200px; 
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border: 2px solid #00FF00; 
+  cursor: pointer;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.438); 
+}
+
+.button:hover {
+  background-color: #555;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.icons img {
+  width: 30px;
+  margin: -9px 2px 0 0; 
+}
