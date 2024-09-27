@@ -2,7 +2,7 @@
  🔗 <br> Meus Links | NebulosaDev
 </h1>
 
-![Preview do Portfólio](img/)
+![Preview do Portfólio](img/preview.png)
 <h4 align="center"> <a href="https://linksnebulosadev.vercel.app/">VISITE O PROJETO</a></h4>
 
 # 
