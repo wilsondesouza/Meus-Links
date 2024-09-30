@@ -1,0 +1,79 @@
+:root {
+    /* Tema claro (padrão) */
+    --bg: #d9d9d9;
+    --bg-image-light: url('/img/bg.png');
+    --bg-mobile-light: url('/img/bg-mobile.png');
+    --bg-button: #212226;
+    --bg-button-hover: #555;
+    --color-h2: #000000d7;
+    --color-subtitle: #000000c2;
+    --color-button: #fff;
+
+    /* Tema escuro */
+    --bg-dark: #262626;
+    --bg-image-dark: url('/img/bg-invertido.png');
+    --bg-mobile-dark: url('/img/bg-mobile-invertido.png');
+    --bg-button-dark: #deddd9;
+    --bg-button-hover-dark: #aaaaaa;
+    --color-h2-dark: #ffffffd7;
+    --color-subtitle-dark: #ffffffc2;
+    --color-button-dark: #000000c2;
+}
+
+/* Estilos para o tema claro */
+body{
+    background-color: var(--bg);
+    background-image: var(--bg-image-light);
+}
+
+@media screen and (max-width:884px) {
+    body {
+        background-image: var(--bg-mobile-light);
+    }
+}
+
+h1, h2{
+    color: var(--color-h2);
+}
+
+.subtitle{
+    color: var(--color-subtitle);
+}
+
+.button {
+    background-color: var(--bg-button);
+    color: var(--color-button)
+}
+
+.bitton:hover{
+    background-color: var(--bg-button-hover);
+}
+
+/* Estilos para o tema escuro */
+body.dark-theme {
+    background-color: var(--bg-dark);
+    background-image: var(--bg-image-dark);
+}
+
+@media screen and (max-width: 884px) {
+    body.dark-theme {
+        background-image: var(--bg-mobile-dark);
+    }
+}
+
+body.dark-theme h1, body.dark-theme h2 {
+    color: var(--color-h2-dark);
+}
+
+body.dark-theme .subtitle {
+    color: var(--color-subtitle-dark);
+}
+
+body.dark-theme .button {
+    background-color: var(--bg-button-dark);
+    color: var(--color-button-dark);
+}
+
+body.dark-theme .button:hover {
+    background-color: var(--bg-button-hover-dark);
+}
